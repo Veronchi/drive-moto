@@ -378,3 +378,32 @@ body {
   border: none;
   margin-left: -3px;
 }
+
+.categories__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.categoties__item {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  padding: 20px;  
+}
+
+.categoties__item-info {
+  width: 50%;
+}
+
+.categories__item-img {
+  width: 50%;
+  text-align: center;
+}
+
+.categories__item-img img {
+  max-width: 100%;
+}
