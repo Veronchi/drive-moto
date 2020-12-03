@@ -21,6 +21,13 @@ $(function(){
         $(this).toggleClass('product-item__favorite--active')      
     });
 
+    $('.product-slider').slick({
+        slidesToShow:4,
+        slidesToScroll: 1,
+        prevArrow:'<button class="banner-section__slider-btn banner-section__slider-btnprev"><img src="img/arrow-black-left.svg" alt=""></button>',
+        nextArrow:'<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="img/arrow-black-right.svg" alt=""></button>',
+    });
+
 
 
 });
