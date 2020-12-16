@@ -66,6 +66,10 @@ body {
     display: flex;
 }
 
+.menu__btn {
+  display: none;
+}
+
 .header__adress {
    width: 265px;
    margin-right: 60px;
