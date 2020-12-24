@@ -1632,3 +1632,7 @@ body {
 .product-card__btn-mobile {
   display: none;
 }
+
+.footer__topdrop {
+  pointer-events: none;
+}
